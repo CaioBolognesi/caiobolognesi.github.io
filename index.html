@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br" id="html">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projeto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="./assets/assets/bg-mobile.jpg" class="bg" alt="dark" />
+    <img src="./assets/assets/bg-mobile-light.jpg" class="bg" alt="light" />
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/assets/avatar_caio.jpg" alt="avatar" />
+        <p>@Dukyzera</p>
+      </div>
+      <div id="switch" onclick="toggleImage()">
+        <button></button>
+        <span> </span>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Botão 1</a>
+        </li>
+        <li>
+          <a href="#">Botão 2</a>
+        </li>
+        <li>
+          <a href="#">Botão 3</a>
+        </li>
+        <li>
+          <a href="#">Botão 4</a>
+        </li>
+      </ul>
+      <div id="social-links">
+        <a
+          href="https://github.com/CaioBolognesi"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/caio-marcelo-bolognesi/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      var body = document.body
+      body.style.overflow = "hidden"
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
